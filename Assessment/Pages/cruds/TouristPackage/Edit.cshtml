@@ -1,0 +1,65 @@
+@page
+@model EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TouristPackage</h4>
+<hr/>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Editar Pacote Turístico</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                    <input type="hidden" asp-for="TouristPackage.Id"/>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="TouristPackage.Title" class="form-label"></label>
+                        <input asp-for="TouristPackage.Title" class="form-control"/>
+                        <span asp-validation-for="TouristPackage.Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="TouristPackage.InitialDate" class="form-label"></label>
+                        <input asp-for="TouristPackage.InitialDate" class="form-control" type="date"/>
+                        <span asp-validation-for="TouristPackage.InitialDate" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="TouristPackage.MaximumPeople" class="form-label"></label>
+                        <input asp-for="TouristPackage.MaximumPeople" class="form-control" type="number" min="1"/>
+                        <span asp-validation-for="TouristPackage.MaximumPeople" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="TouristPackage.Price" class="form-label"></label>
+                        <input asp-for="TouristPackage.Price" class="form-control" type="number" step="0.01" min="0"/>
+                        <span asp-validation-for="TouristPackage.Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <a asp-page="AddCity" asp-route-id="@Model.TouristPackage.Id" class="btn btn-outline-secondary">Adicionar
+                            Cidade</a>
+                    </div>
+
+                    <div class="form-group text-end">
+                        <input type="submit" value="Salvar" class="btn btn-success"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Voltar para a lista</a>
+</div>
+

@@ -1,0 +1,52 @@
+@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Reservas</h1>
+
+<p>
+    <a asp-page="Create">Criar nova:</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Cliente associado:
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Reservation[0].ReservationDate)
+        </th>
+        <th>
+            Pacote Turístico (título):
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Reservation)
+    {
+        <tr>
+            <td>
+                <a asp-page="../ClientCruds/Details" asp-route-id="@item.Client.Id" asp>
+                    @item.Client.Name
+                </a>
+            </td>
+            <td>
+                @item.ReservationDate
+            </td>
+            <td>
+                @item.TouristPackage.Title
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Deletar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

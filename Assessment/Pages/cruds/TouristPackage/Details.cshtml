@@ -1,0 +1,63 @@
+@page
+@model DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Pacote turistico</h4>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TouristPackage.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TouristPackage.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TouristPackage.InitialDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TouristPackage.InitialDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TouristPackage.MaximumPeople)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TouristPackage.MaximumPeople)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TouristPackage.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TouristPackage.Price)
+        </dd>
+        <dt class="col-sm-2">
+            Cities:
+        </dt>
+        <dd class="col-sm-10">
+
+            <ul>
+                @if (Model.Cities.Count == 0)
+                {
+                    <li class="text-danger">Nenhuma cidade associada à esse pacote turistico!</li>
+                }
+                else
+                {
+                    foreach (var city in Model.Cities)
+                    {
+                        <li>@city.Name</li>
+                    }
+                }
+            </ul>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.TouristPackage.Id">Editar</a> |
+    <a asp-page="./Index">Voltar para a lista</a>
+</div>

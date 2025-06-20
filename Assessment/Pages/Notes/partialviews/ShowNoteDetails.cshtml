@@ -1,0 +1,12 @@
+﻿@model ReadNote
+
+<div class="card shadow-lg border-0">
+    <div class="card-header bg-gradient bg-primary text-white d-flex align-items-center">
+        <i class="fas fa-sticky-note fa-lg me-2"></i>
+    </div>
+    <div class="card-body bg-light">
+        <h4 class="card-title fw-bold text-primary">@Model.Title</h4>
+        <hr class="my-3"/>
+        <p class="card-text fs-5" style="white-space: pre-line;">@Model.Content</p>
+    </div>
+</div>

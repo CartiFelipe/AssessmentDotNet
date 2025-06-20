@@ -1,0 +1,52 @@
+@page
+@model EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Editar</h1>
+
+<h4>Reserva:</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Reservation.Id"/>
+            <div class="form-group">
+
+                <label asp-for="Reservation.ClientId" class="control-label">
+                    Cliente associado:
+                </label>
+                <select asp-for="Reservation.ClientId" class="form-control" asp-items="ViewBag.ClientId"></select>
+                <span asp-validation-for="Reservation.ClientId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+
+                <label asp-for="Reservation.TouristPackageId" class="control-label">
+                    Pacote Turístico:
+                </label>
+                <select asp-for="Reservation.TouristPackageId" class="form-control"
+                        asp-items="ViewBag.TouristPackageId">
+                </select>
+                <span asp-validation-for="Reservation.TouristPackageId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+
+                <label asp-for="Reservation.ReservationDate" class="control-label"></label>
+                <input asp-for="Reservation.ReservationDate" class="form-control"/>
+                <span asp-validation-for="Reservation.ReservationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+

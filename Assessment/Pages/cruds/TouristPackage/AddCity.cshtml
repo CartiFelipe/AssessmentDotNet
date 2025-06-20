@@ -1,0 +1,41 @@
+﻿@page
+@model AddCity
+
+
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm mt-4">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Adicionar Cidade ao Pacote</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <input type="hidden" asp-for="Id"/>
+
+                    <div class="mb-3">
+                        <label for="citySelect" class="form-label">Selecione uma cidade</label>
+                        <select asp-for="CityId" class="form-select" id="citySelect">
+                            <option disabled>-- Escolha uma cidade --</option>
+                            @foreach (var city in Model.Cities)
+                            {
+                                <option value="@city.Id">@city.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <span asp-validation-for="CityId" class="text-danger"></span>
+
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <a asp-page="Edit" asp-route-id="@Model.Id" class="btn btn-outline-secondary">
+                            Voltar para Edição
+                        </a>
+                        <input type="submit" value="Adicionar Cidade" class="btn btn-primary"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

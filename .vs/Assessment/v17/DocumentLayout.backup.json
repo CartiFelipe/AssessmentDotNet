@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projetos\\c#\\Assessment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|d:\\projetos\\c#\\assessment\\assessment\\pages\\cruds\\teste\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CDACF39-0D16-4D47-93C3-22DA0949CF67}|Assessment\\Assessment.csproj|solutionrelative:assessment\\pages\\cruds\\teste\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Index.cshtml.cs",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Index.cshtml.cs*",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Index.cshtml.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:07:47.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Index.cshtml",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Index.cshtml",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Index.cshtml",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:07:47.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml.cs",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml.cs",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:07:47.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:07:47.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Details.cshtml.cs",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Details.cshtml.cs",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:07:47.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Details.cshtml",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Details.cshtml",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Details.cshtml",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:07:47.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml.cs",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml.cs",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:07:47.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:07:47.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Create.cshtml.cs",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Create.cshtml.cs",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:07:47.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Create.cshtml",
+              "RelativeDocumentMoniker": "Assessment\\Pages\\cruds\\TESTE\\Create.cshtml",
+              "ToolTip": "D:\\projetos\\c#\\Assessment\\Assessment\\Pages\\cruds\\TESTE\\Create.cshtml",
+              "RelativeToolTip": "Assessment\\Pages\\cruds\\TESTE\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T17:07:46.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
